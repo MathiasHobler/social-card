@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(180, 175, 175);
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0);
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.social-card-component {
+  background-color: rgba(255, 255, 255, 0.664);
+  border-radius: 18px;
+  padding: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-card-icon {
+  padding-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+h2 {
+  text-transform: uppercase;
+}
+
+@media (max-width: 350px) {
+  .social-card-component {
+    flex-direction: column;
+  }
+}
