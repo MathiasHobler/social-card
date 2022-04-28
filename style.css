@@ -10,8 +10,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: space-between;
-  gap: 25px;
+  gap: 2.5em;
 }
 
 .btn {
